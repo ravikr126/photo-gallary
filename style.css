@@ -26,6 +26,7 @@ body{
 .left-text{
     flex-basis: 30%;
 }
+
 .gallary{
     font-size: 3rem;
     color:white;
@@ -38,5 +39,12 @@ body{
     text-align: center;
 }
 
+.gallary{
+    flex-basis:50%;
+    display: grid;
+    gap: 8px;
+    grid-template-columns: repeat(3,1fr);
+    
+}
   
 
